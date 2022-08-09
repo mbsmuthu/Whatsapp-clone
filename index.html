@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    
+    <script src="https://kit.fontawesome.com/bc0f423374.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="sender">
+            <div class="status-bar">
+                <div class="status-left">
+                    <img class="display-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl6CfpiqskpaOGAEtWmWPS8Hjq7GUSKnORHOEJORO2Lg&s%"/>
+                    <div class="display-items">
+                        <p class="user-name">John</p>
+                        <p class="last-seen">Last seen today at 4:00 p.m.</p>
+                    </div>
+                    
+                </div>
+                <div class="icons">
+                    <i class="fas fa-video fa-lg"></i>
+                    <i class="fas fa-phone fa-lg"></i>
+                    <i class="fas fa-ellipsis-vertical fa-lg"></i>
+                </div>
+            </div>
+            <div class="user-input">
+                <div id="sendermsg"></div>
+                <div class="bottom">
+                    <input type="text" id="message1" placeholder="Type your message here" class="input-text">
+                    <i class="fas fa-paper-plane  fa-lg" id="send1"></i>
+                </div>
+               
+            </div>
+        </div>
+        <div class="receiver">
+            <div class="status-bar">
+                <div class="status-left">
+                    <img class="display-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl6CfpiqskpaOGAEtWmWPS8Hjq7GUSKnORHOEJORO2Lg&s%"/>
+                    <div class="display-items">
+                        <p class="user-name">Shubam</p>
+                        <p class="last-seen">Last seen today at 3:00 p.m.</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="icons">
+                    <i class="fas fa-video fa-lg"></i>
+                    <i class="fas fa-phone fa-lg"></i>
+                    <i class="fas fa-ellipsis-vertical fa-lg"></i>
+                </div>     
+            </div>
+            <div class="user-input">
+                <div id="receivermsg"></div>
+                <div class="bottom">
+                    <input type="text" id="message2" placeholder="Type your message here" class="input-text">
+                    <i class="fas fa-paper-plane  fa-lg" id="send2"></i>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+   
+    <script src="whatsappclone.js"></script>
+</body>
+</html>
